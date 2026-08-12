@@ -1,0 +1,95 @@
+.admin-banner {
+  background: #0f4c81;
+  color: #fff;
+  padding: 18px 0;
+  margin-bottom: 0;
+}
+.admin-banner .container {
+  max-width: 960px;
+}
+.admin-banner h1 {
+  margin: 0;
+  font-size: 1.55rem;
+  font-weight: 600;
+}
+.admin-breadcrumb {
+  background: #111;
+  padding: 18px 0;
+  color: #fff;
+  font-size: 0.95rem;
+  margin-bottom: 24px;
+}
+.admin-breadcrumb .container {
+  display: flex;
+  align-items: center;
+}
+.admin-breadcrumb ol {
+  margin: 0;
+  padding-left: 16px;
+  list-style-position: inside;
+}
+.admin-breadcrumb li {
+  margin-bottom: 0.25rem;
+}
+.admin-breadcrumb a {
+  color: #94d4ff;
+  text-decoration: none;
+}
+.admin-breadcrumb a:hover {
+  text-decoration: underline;
+}
+.admin-page {
+  background: #111;
+  border: 1px solid #333;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  padding: 24px;
+  margin-bottom: 24px;
+  color: #f4f4f4;
+}
+.admin-page h1 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+.admin-page p {
+  color: #d5d5d5;
+  margin-bottom: 1rem;
+}
+.admin-page form p {
+  margin-bottom: 1.25rem;
+}
+.admin-page label {
+  font-weight: 600;
+  color: #cdd4e0;
+}
+.admin-page input.form-control,
+.admin-page select.form-control,
+.admin-page textarea.form-control {
+  max-width: 480px;
+  background: #1c1c1c;
+  border: 1px solid #444;
+  color: #f4f4f4;
+}
+.admin-page input.form-control:focus,
+.admin-page select.form-control:focus,
+.admin-page textarea.form-control:focus {
+  border-color: #6ea8ff;
+  box-shadow: 0 0 0 0.2rem rgba(110, 168, 255, 0.25);
+}
+.btn-admin-primary,
+.admin-page .btn-success {
+  background-color: #0f4c81;
+  border-color: #0f4c81;
+  color: #fff;
+}
+.btn-admin-primary:hover,
+.btn-admin-primary:focus,
+.admin-page .btn-success:hover,
+.admin-page .btn-success:focus {
+  background-color: #0b3465;
+  border-color: #0b3465;
+}
+body {
+  background-color: #0a1220;
+}
